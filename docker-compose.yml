@@ -4,10 +4,10 @@ services:
   backend:
     container_name: rest_api
     build:
-      context: ./
+      context: ./backend
     command: python manage.py runserver 0.0.0.0:8000
     volumes: 
-      - ./:/usr/src/app
+      - ./backend:/usr/src/app
     ports:
       - 8001:8000
     environment:
