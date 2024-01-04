@@ -1,5 +1,112 @@
 [
     {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "django.db",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db",
+        "description": "django.db",
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
         "label": "admin",
         "importPath": "django.contrib",
         "description": "django.contrib",
@@ -24,11 +131,11 @@
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
         "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "django.apps",
         "documentation": {}
     },
     {
@@ -40,11 +147,67 @@
         "documentation": {}
     },
     {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
         "isExtraImport": true,
-        "detail": "django.shortcuts",
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "TokenRefreshView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "TokenObtainPairView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "TokenObtainPairSerializer",
+        "importPath": "rest_framework_simplejwt.serializers",
+        "description": "rest_framework_simplejwt.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.serializers",
         "documentation": {}
     },
     {
@@ -54,6 +217,78 @@
         "importPath": "os",
         "description": "os",
         "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "api_view",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
         "documentation": {}
     },
     {
@@ -83,35 +318,46 @@
         "documentation": {}
     },
     {
-        "label": "get_asgi_application",
-        "importPath": "django.core.asgi",
-        "description": "django.core.asgi",
+        "label": "json",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "django.core.asgi",
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
         "documentation": {}
     },
     {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
+        "label": "stringify",
+        "importPath": "flatted",
+        "description": "flatted",
         "isExtraImport": true,
-        "detail": "pathlib",
+        "detail": "flatted",
         "documentation": {}
     },
     {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
+        "label": "parse",
+        "importPath": "flatted",
+        "description": "flatted",
         "isExtraImport": true,
-        "detail": "django.urls",
+        "detail": "flatted",
         "documentation": {}
     },
     {
-        "label": "get_wsgi_application",
-        "importPath": "django.core.wsgi",
-        "description": "django.core.wsgi",
-        "isExtraImport": true,
-        "detail": "django.core.wsgi",
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.authapp.migrations.0001_initial",
+        "description": "backend.authapp.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Profile',\n            fields=[\n                ('name', models.CharField(blank=True, max_length=200, null=True)),",
+        "detail": "backend.authapp.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.authapp.migrations.0002_delete_profile",
+        "description": "backend.authapp.migrations.0002_delete_profile",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('authapp', '0001_initial'),\n    ]\n    operations = [\n        migrations.DeleteModel(\n            name='Profile',\n        ),\n    ]",
+        "detail": "backend.authapp.migrations.0002_delete_profile",
         "documentation": {}
     },
     {
@@ -121,6 +367,285 @@
         "description": "backend.authapp.apps",
         "peekOfCode": "class AuthappConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'authapp'",
         "detail": "backend.authapp.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "backend.authapp.urls",
+        "description": "backend.authapp.urls",
+        "peekOfCode": "urlpatterns = [\n    path('auth/token/',MyTokenObtainPairView.as_view(), name='token_obtain_pair'),\n    path('auth/ token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),\n]",
+        "detail": "backend.authapp.urls",
+        "documentation": {}
+    },
+    {
+        "label": "MyTokenObtainPairSerializer",
+        "kind": 6,
+        "importPath": "backend.authapp.views",
+        "description": "backend.authapp.views",
+        "peekOfCode": "class MyTokenObtainPairSerializer(TokenObtainPairSerializer):  #customising jwt claims\n    @classmethod\n    def get_token(cls, user):\n        token = super().get_token(user)\n        token['name'] = user.username\n        token[\"staff_status\"] = user.is_staff\n        return token\nclass MyTokenObtainPairView(TokenObtainPairView):\n    serializer_class = MyTokenObtainPairSerializer",
+        "detail": "backend.authapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "MyTokenObtainPairView",
+        "kind": 6,
+        "importPath": "backend.authapp.views",
+        "description": "backend.authapp.views",
+        "peekOfCode": "class MyTokenObtainPairView(TokenObtainPairView):\n    serializer_class = MyTokenObtainPairSerializer",
+        "detail": "backend.authapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "backend.markmyjourney.asgi",
+        "description": "backend.markmyjourney.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "backend.markmyjourney.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "backend.markmyjourney.settings",
+        "description": "backend.markmyjourney.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-0m$t86gqp4$ik^mesp^w(@+yr2#mpc=074qqv!#li6a8z40f_h'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = os.environ.get('DEBUG')\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "backend.markmyjourney.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "backend.markmyjourney.settings",
+        "description": "backend.markmyjourney.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-0m$t86gqp4$ik^mesp^w(@+yr2#mpc=074qqv!#li6a8z40f_h'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = os.environ.get('DEBUG')\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "backend.markmyjourney.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "backend.markmyjourney.settings",
+        "description": "backend.markmyjourney.settings",
+        "peekOfCode": "DEBUG = os.environ.get('DEBUG')\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "backend.markmyjourney.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "backend.markmyjourney.settings",
+        "description": "backend.markmyjourney.settings",
+        "peekOfCode": "ALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',",
+        "detail": "backend.markmyjourney.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "backend.markmyjourney.settings",
+        "description": "backend.markmyjourney.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',\n    'corsheaders',\n    'rest_framework_simplejwt.token_blacklist',",
+        "detail": "backend.markmyjourney.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "backend.markmyjourney.settings",
+        "description": "backend.markmyjourney.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    )\n}\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    \"corsheaders.middleware.CorsMiddleware\",\n    'django.middleware.common.CommonMiddleware',",
+        "detail": "backend.markmyjourney.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "backend.markmyjourney.settings",
+        "description": "backend.markmyjourney.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    \"corsheaders.middleware.CorsMiddleware\",\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
+        "detail": "backend.markmyjourney.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SIMPLE_JWT",
+        "kind": 5,
+        "importPath": "backend.markmyjourney.settings",
+        "description": "backend.markmyjourney.settings",
+        "peekOfCode": "SIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(minutes= 15),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=90),\n    \"ROTATE_REFRESH_TOKENS\": True,\n    \"BLACKLIST_AFTER_ROTATION\": True,\n    \"UPDATE_LAST_LOGIN\": True,\n    \"ALGORITHM\": \"HS256\",\n    \"SIGNING_KEY\": SECRET_KEY,\n    \"VERIFYING_KEY\": \"\",\n    \"AUDIENCE\": None,",
+        "detail": "backend.markmyjourney.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "backend.markmyjourney.settings",
+        "description": "backend.markmyjourney.settings",
+        "peekOfCode": "ROOT_URLCONF = 'markmyjourney.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "backend.markmyjourney.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "backend.markmyjourney.settings",
+        "description": "backend.markmyjourney.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "backend.markmyjourney.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "backend.markmyjourney.settings",
+        "description": "backend.markmyjourney.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'markmyjourney.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'postgres',\n        'USER': 'postgres',\n        'PASSWORD': 'postgres',\n        'HOST':'pgdb',",
+        "detail": "backend.markmyjourney.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "backend.markmyjourney.settings",
+        "description": "backend.markmyjourney.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'postgres',\n        'USER': 'postgres',\n        'PASSWORD': 'postgres',\n        'HOST':'pgdb',\n        'port': 5432\n    }\n}",
+        "detail": "backend.markmyjourney.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "backend.markmyjourney.settings",
+        "description": "backend.markmyjourney.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "backend.markmyjourney.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "backend.markmyjourney.settings",
+        "description": "backend.markmyjourney.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "backend.markmyjourney.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "backend.markmyjourney.settings",
+        "description": "backend.markmyjourney.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "backend.markmyjourney.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "backend.markmyjourney.settings",
+        "description": "backend.markmyjourney.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "backend.markmyjourney.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "backend.markmyjourney.settings",
+        "description": "backend.markmyjourney.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "backend.markmyjourney.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "backend.markmyjourney.settings",
+        "description": "backend.markmyjourney.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "backend.markmyjourney.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "backend.markmyjourney.settings",
+        "description": "backend.markmyjourney.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "backend.markmyjourney.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "backend.markmyjourney.urls",
+        "description": "backend.markmyjourney.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('users.urls')),\n    path('', include('authapp.urls')),\n]",
+        "detail": "backend.markmyjourney.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "backend.markmyjourney.wsgi",
+        "description": "backend.markmyjourney.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "backend.markmyjourney.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.users.migrations.0001_initial",
+        "description": "backend.users.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Profile',\n            fields=[\n                ('name', models.CharField(blank=True, max_length=200, null=True)),",
+        "detail": "backend.users.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "UsersConfig",
+        "kind": 6,
+        "importPath": "backend.users.apps",
+        "description": "backend.users.apps",
+        "peekOfCode": "class UsersConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'users'",
+        "detail": "backend.users.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Profile",
+        "kind": 6,
+        "importPath": "backend.users.models",
+        "description": "backend.users.models",
+        "peekOfCode": "class Profile(models.Model):\n    user = models.OneToOneField(\n        User, on_delete = models.CASCADE, null = True, blank = True)\n    name = models.CharField(max_length=200, blank=True,null=True)\n    email = models.EmailField(max_length=500, blank=True,null=True)\n    short_intro = models.CharField(max_length=500, blank=True,null=True)    \n    bio = models.TextField(blank=True,null=True)\n    created = models.DateTimeField(auto_now_add=True)\n    id = models.UUIDField(default = uuid.uuid4, unique = True,\n                            primary_key = True,editable=False ) ",
+        "detail": "backend.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProfilesSerializer",
+        "kind": 6,
+        "importPath": "backend.users.serializers",
+        "description": "backend.users.serializers",
+        "peekOfCode": "class ProfilesSerializer(ModelSerializer):\n    class Meta:\n        model = Profile\n        fields = ['id','created','name','email','short_intro','created']",
+        "detail": "backend.users.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "backend.users.urls",
+        "description": "backend.users.urls",
+        "peekOfCode": "urlpatterns = [\n    path('profiles/', get_profiles, name='get_profiles')\n]",
+        "detail": "backend.users.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_profiles",
+        "kind": 2,
+        "importPath": "backend.users.views",
+        "description": "backend.users.views",
+        "peekOfCode": "def get_profiles(request):\n    try:\n        profiles = Profile.objects.all()\n        serialized = ProfilesSerializer(profiles, many = True)\n        return Response(serialized.data)\n    except:\n        Response(status=status.HTTP_204_NO_CONTENT)",
+        "detail": "backend.users.views",
         "documentation": {}
     },
     {
@@ -214,192 +739,174 @@
         "documentation": {}
     },
     {
-        "label": "application",
-        "kind": 5,
-        "importPath": "markmyjourney.asgi",
-        "description": "markmyjourney.asgi",
-        "peekOfCode": "application = get_asgi_application()",
-        "detail": "markmyjourney.asgi",
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "frontend.node_modules.flatted.python.flatted",
         "documentation": {}
     },
     {
-        "label": "BASE_DIR",
-        "kind": 5,
-        "importPath": "markmyjourney.settings",
-        "description": "markmyjourney.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-0m$t86gqp4$ik^mesp^w(@+yr2#mpc=074qqv!#li6a8z40f_h'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = os.environ.get('DEBUG')\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [",
-        "detail": "markmyjourney.settings",
+        "label": "_String",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "frontend.node_modules.flatted.python.flatted",
         "documentation": {}
     },
     {
-        "label": "SECRET_KEY",
-        "kind": 5,
-        "importPath": "markmyjourney.settings",
-        "description": "markmyjourney.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-0m$t86gqp4$ik^mesp^w(@+yr2#mpc=074qqv!#li6a8z40f_h'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = os.environ.get('DEBUG')\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
-        "detail": "markmyjourney.settings",
+        "label": "parse",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "frontend.node_modules.flatted.python.flatted",
         "documentation": {}
     },
     {
-        "label": "DEBUG",
-        "kind": 5,
-        "importPath": "markmyjourney.settings",
-        "description": "markmyjourney.settings",
-        "peekOfCode": "DEBUG = os.environ.get('DEBUG')\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
-        "detail": "markmyjourney.settings",
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "frontend.node_modules.flatted.python.flatted",
         "documentation": {}
     },
     {
-        "label": "ALLOWED_HOSTS",
-        "kind": 5,
-        "importPath": "markmyjourney.settings",
-        "description": "markmyjourney.settings",
-        "peekOfCode": "ALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',",
-        "detail": "markmyjourney.settings",
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "def stringify(value):\n    return _stringify(value, separators=(',', ':'))\nassert stringify([None, None]) == '[[null,null]]'\na = []\no = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'",
+        "detail": "frontend.node_modules.flatted.python.test",
         "documentation": {}
     },
     {
-        "label": "INSTALLED_APPS",
+        "label": "a",
         "kind": 5,
-        "importPath": "markmyjourney.settings",
-        "description": "markmyjourney.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',\n    'corsheaders',\n    'authapp'",
-        "detail": "markmyjourney.settings",
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "a = []\no = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b",
+        "detail": "frontend.node_modules.flatted.python.test",
         "documentation": {}
     },
     {
-        "label": "REST_FRAMEWORK",
+        "label": "o",
         "kind": 5,
-        "importPath": "markmyjourney.settings",
-        "description": "markmyjourney.settings",
-        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    )\n}\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',",
-        "detail": "markmyjourney.settings",
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)",
+        "detail": "frontend.node_modules.flatted.python.test",
         "documentation": {}
     },
     {
-        "label": "MIDDLEWARE",
+        "label": "o['o']",
         "kind": 5,
-        "importPath": "markmyjourney.settings",
-        "description": "markmyjourney.settings",
-        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'markmyjourney.urls'",
-        "detail": "markmyjourney.settings",
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)\na.append('two')\na.append(True)\no['one'] = 1\no['two'] = 'two'",
+        "detail": "frontend.node_modules.flatted.python.test",
         "documentation": {}
     },
     {
-        "label": "ROOT_URLCONF",
+        "label": "b",
         "kind": 5,
-        "importPath": "markmyjourney.settings",
-        "description": "markmyjourney.settings",
-        "peekOfCode": "ROOT_URLCONF = 'markmyjourney.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
-        "detail": "markmyjourney.settings",
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "b = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)\na.append('two')\na.append(True)\no['one'] = 1\no['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'",
+        "detail": "frontend.node_modules.flatted.python.test",
         "documentation": {}
     },
     {
-        "label": "TEMPLATES",
+        "label": "o['one']",
         "kind": 5,
-        "importPath": "markmyjourney.settings",
-        "description": "markmyjourney.settings",
-        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
-        "detail": "markmyjourney.settings",
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['one'] = 1\no['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})",
+        "detail": "frontend.node_modules.flatted.python.test",
         "documentation": {}
     },
     {
-        "label": "WSGI_APPLICATION",
+        "label": "o['two']",
         "kind": 5,
-        "importPath": "markmyjourney.settings",
-        "description": "markmyjourney.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'markmyjourney.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'postgres',\n        'USER': 'postgres',\n        'PASSWORD': 'postgres',\n        'HOST':'pgdb',",
-        "detail": "markmyjourney.settings",
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])",
+        "detail": "frontend.node_modules.flatted.python.test",
         "documentation": {}
     },
     {
-        "label": "DATABASES",
+        "label": "o['three']",
         "kind": 5,
-        "importPath": "markmyjourney.settings",
-        "description": "markmyjourney.settings",
-        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'postgres',\n        'USER': 'postgres',\n        'PASSWORD': 'postgres',\n        'HOST':'pgdb',\n        'port': 5432\n    }\n}",
-        "detail": "markmyjourney.settings",
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])\no['test'] = {'test': 'OK'}",
+        "detail": "frontend.node_modules.flatted.python.test",
         "documentation": {}
     },
     {
-        "label": "AUTH_PASSWORD_VALIDATORS",
+        "label": "o['a']",
         "kind": 5,
-        "importPath": "markmyjourney.settings",
-        "description": "markmyjourney.settings",
-        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
-        "detail": "markmyjourney.settings",
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])\no['test'] = {'test': 'OK'}\no['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));",
+        "detail": "frontend.node_modules.flatted.python.test",
         "documentation": {}
     },
     {
-        "label": "LANGUAGE_CODE",
+        "label": "o['test']",
         "kind": 5,
-        "importPath": "markmyjourney.settings",
-        "description": "markmyjourney.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
-        "detail": "markmyjourney.settings",
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['test'] = {'test': 'OK'}\no['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']",
+        "detail": "frontend.node_modules.flatted.python.test",
         "documentation": {}
     },
     {
-        "label": "TIME_ZONE",
+        "label": "o['array']",
         "kind": 5,
-        "importPath": "markmyjourney.settings",
-        "description": "markmyjourney.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
-        "detail": "markmyjourney.settings",
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')",
+        "detail": "frontend.node_modules.flatted.python.test",
         "documentation": {}
     },
     {
-        "label": "USE_I18N",
+        "label": "a2",
         "kind": 5,
-        "importPath": "markmyjourney.settings",
-        "description": "markmyjourney.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
-        "detail": "markmyjourney.settings",
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "a2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']",
+        "detail": "frontend.node_modules.flatted.python.test",
         "documentation": {}
     },
     {
-        "label": "USE_TZ",
+        "label": "o2",
         "kind": 5,
-        "importPath": "markmyjourney.settings",
-        "description": "markmyjourney.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
-        "detail": "markmyjourney.settings",
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "frontend.node_modules.flatted.python.test",
         "documentation": {}
     },
     {
-        "label": "STATIC_URL",
+        "label": "str",
         "kind": 5,
-        "importPath": "markmyjourney.settings",
-        "description": "markmyjourney.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
-        "detail": "markmyjourney.settings",
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "str = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "frontend.node_modules.flatted.python.test",
         "documentation": {}
     },
     {
-        "label": "DEFAULT_AUTO_FIELD",
+        "label": "oo",
         "kind": 5,
-        "importPath": "markmyjourney.settings",
-        "description": "markmyjourney.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
-        "detail": "markmyjourney.settings",
-        "documentation": {}
-    },
-    {
-        "label": "urlpatterns",
-        "kind": 5,
-        "importPath": "markmyjourney.urls",
-        "description": "markmyjourney.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n]",
-        "detail": "markmyjourney.urls",
-        "documentation": {}
-    },
-    {
-        "label": "application",
-        "kind": 5,
-        "importPath": "markmyjourney.wsgi",
-        "description": "markmyjourney.wsgi",
-        "peekOfCode": "application = get_wsgi_application()",
-        "detail": "markmyjourney.wsgi",
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "oo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "frontend.node_modules.flatted.python.test",
         "documentation": {}
     }
 ]

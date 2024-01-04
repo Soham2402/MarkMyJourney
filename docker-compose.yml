@@ -25,5 +25,18 @@ services:
     volumes:
       - pgdata:/var/lib/postgresql/data
 
+
+  frontend:
+    container_name: frontend
+    build:
+      context: ./frontend
+    command: npm run dev
+    ports:
+       - 3000:3000
+    volumes:
+      - ./frontend:/usr/src/app
+    depends_on:
+      - backend
+
 volumes:
   pgdata:
