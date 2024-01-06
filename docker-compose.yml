@@ -32,11 +32,10 @@ services:
       context: ./frontend
     command: npm run dev
     ports:
-       - 3000:3000
+      - "3000:3000"
     volumes:
+      - /usr/src/app/node_modules  # To cache node_modules within the container
       - ./frontend:/usr/src/app
-    depends_on:
-      - backend
 
 volumes:
   pgdata:

@@ -1,8 +1,12 @@
 FROM node:bookworm-slim
 
-WORKDIR /app
-COPY package.json /app
+WORKDIR /usr/src/app
 
+COPY package.json ./package.json
+COPY package-lock.json ./package-lock.json
 RUN npm install
-COPY . /app
+
+COPY . .
+
+EXPOSE 3000
 
