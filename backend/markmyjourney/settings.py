@@ -29,6 +29,7 @@ DEBUG = os.environ.get('DEBUG')
 
 ALLOWED_HOSTS = ['*']
 
+AUTH_USER_MODEL = "users.Profile"
 
 # Application definition
 
@@ -45,7 +46,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt.token_blacklist',
     
     'authapp',
-    'users'
+    'users',
     
 ]
 

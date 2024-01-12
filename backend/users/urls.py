@@ -1,8 +1,7 @@
-from django.urls import path
 
-from .views import get_profiles
-
+from django.urls import path, include
+from .views import RegisterUserView
 
 urlpatterns = [
-    path('profiles/', get_profiles, name='get_profiles')
+      path('register', RegisterUserView.as_view()),
 ]

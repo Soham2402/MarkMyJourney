@@ -1,36 +1,42 @@
 [
     {
-        "label": "django.db.models.deletion",
-        "kind": 6,
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
         "isExtraImport": true,
-        "importPath": "django.db.models.deletion",
-        "description": "django.db.models.deletion",
-        "detail": "django.db.models.deletion",
+        "detail": "django.contrib",
         "documentation": {}
     },
     {
-        "label": "uuid",
-        "kind": 6,
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
         "isExtraImport": true,
-        "importPath": "uuid",
-        "description": "uuid",
-        "detail": "uuid",
+        "detail": "django.contrib",
         "documentation": {}
     },
     {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
         "isExtraImport": true,
-        "detail": "django.conf",
+        "detail": "django.contrib",
         "documentation": {}
     },
     {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
         "isExtraImport": true,
-        "detail": "django.conf",
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
         "documentation": {}
     },
     {
@@ -43,14 +49,6 @@
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -75,67 +73,11 @@
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
         "isExtraImport": true,
         "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
-        "isExtraImport": true,
-        "detail": "django.contrib",
-        "documentation": {}
-    },
-    {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
-        "isExtraImport": true,
-        "detail": "django.contrib",
-        "documentation": {}
-    },
-    {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
-        "isExtraImport": true,
-        "detail": "django.contrib",
-        "documentation": {}
-    },
-    {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
-        "isExtraImport": true,
-        "detail": "django.apps",
-        "documentation": {}
-    },
-    {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
-        "isExtraImport": true,
-        "detail": "django.apps",
         "documentation": {}
     },
     {
@@ -180,6 +122,14 @@
     },
     {
         "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
         "importPath": "django.urls",
         "description": "django.urls",
         "isExtraImport": true,
@@ -252,11 +202,47 @@
         "documentation": {}
     },
     {
-        "label": "User",
+        "label": "django.contrib.auth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
         "importPath": "django.contrib.auth.models",
         "description": "django.contrib.auth.models",
         "isExtraImport": true,
         "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.validators",
+        "description": "django.contrib.auth.validators",
+        "detail": "django.contrib.auth.validators",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
         "documentation": {}
     },
     {
@@ -268,11 +254,11 @@
         "documentation": {}
     },
     {
-        "label": "api_view",
-        "importPath": "rest_framework.decorators",
-        "description": "rest_framework.decorators",
+        "label": "GenericAPIView",
+        "importPath": "rest_framework.generics",
+        "description": "rest_framework.generics",
         "isExtraImport": true,
-        "detail": "rest_framework.decorators",
+        "detail": "rest_framework.generics",
         "documentation": {}
     },
     {
@@ -289,6 +275,14 @@
         "description": "rest_framework",
         "isExtraImport": true,
         "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterSerializer",
+        "importPath": "users.serializers",
+        "description": "users.serializers",
+        "isExtraImport": true,
+        "detail": "users.serializers",
         "documentation": {}
     },
     {
@@ -343,24 +337,6 @@
         "documentation": {}
     },
     {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "backend.authapp.migrations.0001_initial",
-        "description": "backend.authapp.migrations.0001_initial",
-        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Profile',\n            fields=[\n                ('name', models.CharField(blank=True, max_length=200, null=True)),",
-        "detail": "backend.authapp.migrations.0001_initial",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "backend.authapp.migrations.0002_delete_profile",
-        "description": "backend.authapp.migrations.0002_delete_profile",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('authapp', '0001_initial'),\n    ]\n    operations = [\n        migrations.DeleteModel(\n            name='Profile',\n        ),\n    ]",
-        "detail": "backend.authapp.migrations.0002_delete_profile",
-        "documentation": {}
-    },
-    {
         "label": "AuthappConfig",
         "kind": 6,
         "importPath": "backend.authapp.apps",
@@ -410,7 +386,7 @@
         "kind": 5,
         "importPath": "backend.markmyjourney.settings",
         "description": "backend.markmyjourney.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-0m$t86gqp4$ik^mesp^w(@+yr2#mpc=074qqv!#li6a8z40f_h'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = os.environ.get('DEBUG')\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-0m$t86gqp4$ik^mesp^w(@+yr2#mpc=074qqv!#li6a8z40f_h'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = os.environ.get('DEBUG')\nALLOWED_HOSTS = ['*']\nAUTH_USER_MODEL = \"users.Profile\"\n# Application definition",
         "detail": "backend.markmyjourney.settings",
         "documentation": {}
     },
@@ -419,7 +395,7 @@
         "kind": 5,
         "importPath": "backend.markmyjourney.settings",
         "description": "backend.markmyjourney.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-0m$t86gqp4$ik^mesp^w(@+yr2#mpc=074qqv!#li6a8z40f_h'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = os.environ.get('DEBUG')\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-0m$t86gqp4$ik^mesp^w(@+yr2#mpc=074qqv!#li6a8z40f_h'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = os.environ.get('DEBUG')\nALLOWED_HOSTS = ['*']\nAUTH_USER_MODEL = \"users.Profile\"\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
         "detail": "backend.markmyjourney.settings",
         "documentation": {}
     },
@@ -428,7 +404,7 @@
         "kind": 5,
         "importPath": "backend.markmyjourney.settings",
         "description": "backend.markmyjourney.settings",
-        "peekOfCode": "DEBUG = os.environ.get('DEBUG')\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "DEBUG = os.environ.get('DEBUG')\nALLOWED_HOSTS = ['*']\nAUTH_USER_MODEL = \"users.Profile\"\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
         "detail": "backend.markmyjourney.settings",
         "documentation": {}
     },
@@ -437,7 +413,16 @@
         "kind": 5,
         "importPath": "backend.markmyjourney.settings",
         "description": "backend.markmyjourney.settings",
-        "peekOfCode": "ALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',",
+        "peekOfCode": "ALLOWED_HOSTS = ['*']\nAUTH_USER_MODEL = \"users.Profile\"\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "backend.markmyjourney.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "backend.markmyjourney.settings",
+        "description": "backend.markmyjourney.settings",
+        "peekOfCode": "AUTH_USER_MODEL = \"users.Profile\"\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',",
         "detail": "backend.markmyjourney.settings",
         "documentation": {}
     },
@@ -599,7 +584,7 @@
         "kind": 6,
         "importPath": "backend.users.migrations.0001_initial",
         "description": "backend.users.migrations.0001_initial",
-        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Profile',\n            fields=[\n                ('name', models.CharField(blank=True, max_length=200, null=True)),",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Profile',\n            fields=[\n                ('password', models.CharField(max_length=128, verbose_name='password')),",
         "detail": "backend.users.migrations.0001_initial",
         "documentation": {}
     },
@@ -617,8 +602,17 @@
         "kind": 6,
         "importPath": "backend.users.models",
         "description": "backend.users.models",
-        "peekOfCode": "class Profile(models.Model):\n    user = models.OneToOneField(\n        User, on_delete = models.CASCADE, null = True, blank = True)\n    name = models.CharField(max_length=200, blank=True,null=True)\n    email = models.EmailField(max_length=500, blank=True,null=True)\n    short_intro = models.CharField(max_length=500, blank=True,null=True)    \n    bio = models.TextField(blank=True,null=True)\n    created = models.DateTimeField(auto_now_add=True)\n    id = models.UUIDField(default = uuid.uuid4, unique = True,\n                            primary_key = True,editable=False ) ",
+        "peekOfCode": "class Profile(AbstractUser):\n    id = models.UUIDField(default=uuid.uuid4, unique=True, primary_key=True, editable=False)\n    display = models.TextField(max_length=200, default=\"image\")\n    short_intro = models.CharField(max_length=500, blank=True, null=True)\n    bio = models.TextField(blank=True, null=True)\n    def __str__(self):\n        return str(self.username)  # Use `self.username` instead of `self.user.username`\n    class Meta:\n        ordering = ['date_joined']  # Use 'date_joined' instead of 'created'",
         "detail": "backend.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterSerializer",
+        "kind": 6,
+        "importPath": "backend.users.serializers",
+        "description": "backend.users.serializers",
+        "peekOfCode": "class RegisterSerializer(ModelSerializer):\n    class Meta:\n        model = Profile\n        fields = [\"username\",\"email\",\"password\"]\n        extra_kwargs = {\"password\":{\"write_only\":True}}   \n    def create(self, validated_data):\n        user = Profile.objects.create_user(username = validated_data[\"username\"], \n                                           email =  validated_data[\"username\"], \n                                           password = validated_data[\"password\"])\n        return user",
+        "detail": "backend.users.serializers",
         "documentation": {}
     },
     {
@@ -626,7 +620,7 @@
         "kind": 6,
         "importPath": "backend.users.serializers",
         "description": "backend.users.serializers",
-        "peekOfCode": "class ProfilesSerializer(ModelSerializer):\n    class Meta:\n        model = Profile\n        fields = ['id','created','name','email','short_intro','created']",
+        "peekOfCode": "class ProfilesSerializer(ModelSerializer):\n    class Meta:\n        model = Profile\n        fields = '__all__'",
         "detail": "backend.users.serializers",
         "documentation": {}
     },
@@ -635,16 +629,16 @@
         "kind": 5,
         "importPath": "backend.users.urls",
         "description": "backend.users.urls",
-        "peekOfCode": "urlpatterns = [\n    path('profiles/', get_profiles, name='get_profiles')\n]",
+        "peekOfCode": "urlpatterns = [\n      path('register', RegisterUserView.as_view()),\n]",
         "detail": "backend.users.urls",
         "documentation": {}
     },
     {
-        "label": "get_profiles",
-        "kind": 2,
+        "label": "RegisterUserView",
+        "kind": 6,
         "importPath": "backend.users.views",
         "description": "backend.users.views",
-        "peekOfCode": "def get_profiles(request):\n    try:\n        profiles = Profile.objects.all()\n        serialized = ProfilesSerializer(profiles, many = True)\n        return Response(serialized.data)\n    except:\n        Response(status=status.HTTP_204_NO_CONTENT)",
+        "peekOfCode": "class RegisterUserView(GenericAPIView):\n    serializer_class = RegisterSerializer\n    def post(self, request,*args, **kwargs):\n        serialized = self.get_serializer(data = request.data)\n        if serialized.is_valid(raise_exception = True):\n            user = serialized.save()\n            return Response({\"user\": ProfilesSerializer(user, context=self.get_serializer_context()).data,\n            \"message\": \"User Created Successfully.  Now perform Login to get your token\", })          \n        else:\n            return Response(status=status.HTTP_406_NOT_ACCEPTABLE)",
         "detail": "backend.users.views",
         "documentation": {}
     },
