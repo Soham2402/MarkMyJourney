@@ -161,6 +161,46 @@
         "documentation": {}
     },
     {
+        "label": "api_view",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "permission_classes",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -262,14 +302,6 @@
         "documentation": {}
     },
     {
-        "label": "Response",
-        "importPath": "rest_framework.response",
-        "description": "rest_framework.response",
-        "isExtraImport": true,
-        "detail": "rest_framework.response",
-        "documentation": {}
-    },
-    {
         "label": "status",
         "importPath": "rest_framework",
         "description": "rest_framework",
@@ -350,7 +382,7 @@
         "kind": 5,
         "importPath": "backend.authapp.urls",
         "description": "backend.authapp.urls",
-        "peekOfCode": "urlpatterns = [\n    path('auth/token/',MyTokenObtainPairView.as_view(), name='token_obtain_pair'),\n    path('auth/ token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('auth/token/',MyTokenObtainPairView.as_view(), name='token_obtain_pair'),\n    path('auth/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),\n    path('test/', testUser, name='testuser')\n]",
         "detail": "backend.authapp.urls",
         "documentation": {}
     },
@@ -359,7 +391,7 @@
         "kind": 6,
         "importPath": "backend.authapp.views",
         "description": "backend.authapp.views",
-        "peekOfCode": "class MyTokenObtainPairSerializer(TokenObtainPairSerializer):  #customising jwt claims\n    @classmethod\n    def get_token(cls, user):\n        token = super().get_token(user)\n        token['name'] = user.username\n        token[\"staff_status\"] = user.is_staff\n        return token\nclass MyTokenObtainPairView(TokenObtainPairView):\n    serializer_class = MyTokenObtainPairSerializer",
+        "peekOfCode": "class MyTokenObtainPairSerializer(TokenObtainPairSerializer):  #customising jwt claims\n    @classmethod\n    def get_token(cls, user):\n        token = super().get_token(user)\n        token['name'] = user.username\n        return token\nclass MyTokenObtainPairView(TokenObtainPairView):\n    serializer_class = MyTokenObtainPairSerializer\\\n@api_view(['GET'])\n@permission_classes([IsAuthenticated])",
         "detail": "backend.authapp.views",
         "documentation": {}
     },
@@ -368,7 +400,16 @@
         "kind": 6,
         "importPath": "backend.authapp.views",
         "description": "backend.authapp.views",
-        "peekOfCode": "class MyTokenObtainPairView(TokenObtainPairView):\n    serializer_class = MyTokenObtainPairSerializer",
+        "peekOfCode": "class MyTokenObtainPairView(TokenObtainPairView):\n    serializer_class = MyTokenObtainPairSerializer\\\n@api_view(['GET'])\n@permission_classes([IsAuthenticated])\ndef testUser(request):\n    print(request.data)\n    return Response({\"data\":\"data\"})",
+        "detail": "backend.authapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "testUser",
+        "kind": 2,
+        "importPath": "backend.authapp.views",
+        "description": "backend.authapp.views",
+        "peekOfCode": "def testUser(request):\n    print(request.data)\n    return Response({\"data\":\"data\"})",
         "detail": "backend.authapp.views",
         "documentation": {}
     },
@@ -454,11 +495,20 @@
         "documentation": {}
     },
     {
+        "label": "CORS_ALLOW_ALL_ORIGINS",
+        "kind": 5,
+        "importPath": "backend.markmyjourney.settings",
+        "description": "backend.markmyjourney.settings",
+        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = True\nSIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(minutes = 5),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=90),\n    \"ROTATE_REFRESH_TOKENS\": True,\n    \"BLACKLIST_AFTER_ROTATION\": True,\n    \"UPDATE_LAST_LOGIN\": False,\n    \"ALGORITHM\": \"HS256\",\n    \"SIGNING_KEY\": SECRET_KEY,\n    \"VERIFYING_KEY\": \"\",",
+        "detail": "backend.markmyjourney.settings",
+        "documentation": {}
+    },
+    {
         "label": "SIMPLE_JWT",
         "kind": 5,
         "importPath": "backend.markmyjourney.settings",
         "description": "backend.markmyjourney.settings",
-        "peekOfCode": "SIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(minutes= 15),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=90),\n    \"ROTATE_REFRESH_TOKENS\": True,\n    \"BLACKLIST_AFTER_ROTATION\": True,\n    \"UPDATE_LAST_LOGIN\": True,\n    \"ALGORITHM\": \"HS256\",\n    \"SIGNING_KEY\": SECRET_KEY,\n    \"VERIFYING_KEY\": \"\",\n    \"AUDIENCE\": None,",
+        "peekOfCode": "SIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(minutes = 5),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=90),\n    \"ROTATE_REFRESH_TOKENS\": True,\n    \"BLACKLIST_AFTER_ROTATION\": True,\n    \"UPDATE_LAST_LOGIN\": False,\n    \"ALGORITHM\": \"HS256\",\n    \"SIGNING_KEY\": SECRET_KEY,\n    \"VERIFYING_KEY\": \"\",\n    \"AUDIENCE\": None,",
         "detail": "backend.markmyjourney.settings",
         "documentation": {}
     },

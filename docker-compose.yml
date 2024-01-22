@@ -33,9 +33,14 @@ services:
     command: npm run dev
     ports:
       - "3000:3000"
+    environment:
+      # - watchpack_polling=true     
+      CHOKIDAR_USEPOLLING: "true"
     volumes:
       - /usr/src/app/node_modules  # To cache node_modules within the container
       - ./frontend:/usr/src/app
+    stdin_open: true
+    tty: true
 
 volumes:
   pgdata:

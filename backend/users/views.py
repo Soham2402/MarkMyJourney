@@ -18,3 +18,4 @@ class RegisterUserView(GenericAPIView):
             "message": "User Created Successfully.  Now perform Login to get your token", })          
         else:
             return Response(status=status.HTTP_406_NOT_ACCEPTABLE)
+        
