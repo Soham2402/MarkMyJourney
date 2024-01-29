@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
-import { AuthContext } from '../context/AuthContext'
-import { testRequest } from '../utils/AuthRequests'
+import { AuthContext } from '../../context/AuthContext'
+import { testRequest } from '../../utils/AuthRequests'
 const Blog = () => {
     const {username} = useContext(AuthContext)
     const authtoken = localStorage.getItem("tokens")

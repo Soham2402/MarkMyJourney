@@ -10,8 +10,10 @@ import PrivateRoute from "./utils/PrivateRoute"
 
 function App() {
   const HeaderComponent = lazy(() => import("./components/Header"))
-  const Blog = lazy(() => import("./pages/Blog"))
-  const Login = lazy(() => import("./pages/Login"))
+  const Blog = lazy(() => import("./pages/Blog/Blog"))
+  const Login = lazy(() => import("./pages/Login/Login"))
+  const Signup = lazy(() => import("./pages/Signup/SignUp"))
+
 
   return (
     <>
@@ -32,6 +34,8 @@ function App() {
             </PrivateRoute>
           }   
         path = "/blogs" />
+
+        <Route element = {<Signup/>} path="/sign-up"/>
 
     </Routes>
   </Suspense>

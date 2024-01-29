@@ -1,8 +1,10 @@
 import React, { useContext, useState } from 'react'
-import { AuthContext } from '../context/AuthContext'
+
+import { AuthContext } from '../../context/AuthContext';
+import { getAuthTokens } from '../../utils/AuthRequests'
+
 import { jwtDecode } from "jwt-decode";
 import { useNavigate } from 'react-router-dom'
-import { getAuthTokens } from '../utils/AuthRequests'
 
 const Login = () => {
   const {setUsername, setTokens} = useContext(AuthContext)
